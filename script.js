@@ -38,7 +38,6 @@ function rot13(encodedStr) {
 	for( let i =0 ; i<encodedStr.length ; i++){
 		finstr += lookup{encodedStr[i]};
 	}
-	
   return finstr; //return decodedArr
 }
 
